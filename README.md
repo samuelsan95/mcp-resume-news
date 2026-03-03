@@ -15,7 +15,7 @@ MCP server to get a daily news summary from multiple RSS feeds. Configure your f
 
 ### Claude Desktop
 
-Add this to your `claude_desktop_config.json`:
+Add this to your `claude_desktop_config.json` or other Agents settings:
 
 ```json
 {
@@ -26,16 +26,6 @@ Add this to your `claude_desktop_config.json`:
     }
   }
 }
-```
-
-Config file location:
-- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
-
-### Claude Code (CLI)
-
-```bash
-claude mcp add resume-news -- npx -y resume-news-mcp
 ```
 
 ## Usage
